@@ -1,2 +1,23 @@
+# Build artifacts
 build/
-**/**/*.log
+dist/
+*.o
+*.so
+*.a
+*.d
+
+# Generated files
+*.log
+*.tmp
+*.conf
+
+# IDE files
+.vscode/
+.idea/
+
+# Binary files
+aspire_server*
+aspire_tests*
+
+# Test artifacts
+test_config.conf
